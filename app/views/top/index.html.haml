@@ -1,0 +1,11 @@
+.container
+  Ethereum.rb テストページ
+  .container__address
+    アドレス: 
+    = @contract.call.get_address()
+  .container__balance
+    残高: 
+    = @contract.call.get_balance()
+  .container__greet
+    GreetMethod:
+    = @contract.call.greet()
