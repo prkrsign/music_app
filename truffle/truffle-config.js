@@ -48,10 +48,10 @@ module.exports = {
      network_id: "15",       // Any network (default: none)
      gas: 4700000
     },
-    development: {
+    ganache: {
       host: "127.0.0.1",     // Localhost (default: none)
       port: 7545,            // Standard Ethereum port (default: none)
-      network_id: "*",       // Any network (default: none)
+      network_id: "5777",       // Any network (default: none)
       gas: 4700000
      },
 
