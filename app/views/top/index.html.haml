@@ -1,11 +1,11 @@
-.container
+.container.uk-tile.uk-tile-secondary
   Ethereum.rb テストページ
-  .container__address
-    アドレス: 
-    = @contract.call.get_address()
-  .container__balance
-    残高: 
-    = @contract.call.get_balance()
-  .container__greet
-    GreetMethod:
-    = @contract.call.greet()
+.container__address.uk-alert-primary.uk-alert
+  アドレス: 
+  = @contract.call.get_address()
+.container__balance.uk-alert-success.uk-alert
+  残高: 
+  = @contract.call.get_balance()
+.container__greet.uk-alert-warning.uk-alert
+  GreetMethod:
+  = @contract.call.greet()
