@@ -11,6 +11,11 @@
 // about supported directives.
 //
 //= require rails-ujs
+//= require jquery
+//= require jquery_ujs
+//= require uikit.min
+//= require uikit-icons.min
 //= require activestorage
+//= require bootstrap-sprockets
 //= require turbolinks
 //= require_tree .
