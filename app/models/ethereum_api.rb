@@ -1,0 +1,2 @@
+class EthereumApi < ApplicationRecord
+end
